@@ -11,16 +11,30 @@ namespace HorseRacingSimulation.Models
         private int _positionX;
         private TimeSpan _raceTime;
         private int _currentFrameIndex;
+        private double _coefficient;
+        private double _moneyBet; 
 
         public string Name { get; private set; }
         public Color Color { get; private set; }
 
-        public double BaseSpeed { get; private set; }
+        public double BaseSpeed { get;  set; }
 
         public double Acceleration { get; set; }
-
-        public double Coefficient { get; private set; }
-        public double MoneyBet { get; set; }
+       
+        public double Coefficient
+        {
+            get => _coefficient;
+            set
+            {
+                _coefficient = value;
+                OnPropertyChanged();
+            }
+        }
+        public double MoneyBet
+        {
+            get => _moneyBet;
+            set { _moneyBet = value; OnPropertyChanged(); }
+        }
 
         public int PositionX
         {
@@ -58,9 +72,8 @@ namespace HorseRacingSimulation.Models
         {
             Name = name;
             Color = color;
-            Coefficient = defaultCoefficient;
-
-            BaseSpeed = _random.Next(5, 11);
+            _coefficient = defaultCoefficient;
+            BaseSpeed = Random.Shared.Next(7, 12);
             PositionX = 0;
             CurrentFrameIndex = 0;
             RaceTime = TimeSpan.Zero;

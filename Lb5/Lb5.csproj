@@ -9,8 +9,67 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Images\" />
+    <None Remove="Images\mask_0000.png" />
+    <None Remove="Images\mask_0001.png" />
+    <None Remove="Images\mask_0002.png" />
+    <None Remove="Images\mask_0003.png" />
+    <None Remove="Images\mask_0004.png" />
+    <None Remove="Images\mask_0005.png" />
+    <None Remove="Images\mask_0006.png" />
+    <None Remove="Images\mask_0007.png" />
+    <None Remove="Images\mask_0008.png" />
+    <None Remove="Images\mask_0009.png" />
+    <None Remove="Images\mask_0010.png" />
+    <None Remove="Images\mask_0011.png" />
+    <None Remove="Images\Track.png" />
+    <None Remove="Images\WithOutBorder_0000.png" />
+    <None Remove="Images\WithOutBorder_0001.png" />
+    <None Remove="Images\WithOutBorder_0002.png" />
+    <None Remove="Images\WithOutBorder_0003.png" />
+    <None Remove="Images\WithOutBorder_0004.png" />
+    <None Remove="Images\WithOutBorder_0005.png" />
+    <None Remove="Images\WithOutBorder_0006.png" />
+    <None Remove="Images\WithOutBorder_0007.png" />
+    <None Remove="Images\WithOutBorder_0008.png" />
+    <None Remove="Images\WithOutBorder_0009.png" />
+    <None Remove="Images\WithOutBorder_0010.png" />
+    <None Remove="Images\WithOutBorder_0011.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Views\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WriteableBitmapEx" Version="1.6.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\mask_0000.png" />
+    <Resource Include="Images\mask_0001.png" />
+    <Resource Include="Images\mask_0002.png" />
+    <Resource Include="Images\mask_0003.png" />
+    <Resource Include="Images\mask_0004.png" />
+    <Resource Include="Images\mask_0005.png" />
+    <Resource Include="Images\mask_0006.png" />
+    <Resource Include="Images\mask_0007.png" />
+    <Resource Include="Images\mask_0008.png" />
+    <Resource Include="Images\mask_0009.png" />
+    <Resource Include="Images\mask_0010.png" />
+    <Resource Include="Images\mask_0011.png" />
+    <Resource Include="Images\Track.png" />
+    <Resource Include="Images\WithOutBorder_0000.png" />
+    <Resource Include="Images\WithOutBorder_0001.png" />
+    <Resource Include="Images\WithOutBorder_0002.png" />
+    <Resource Include="Images\WithOutBorder_0003.png" />
+    <Resource Include="Images\WithOutBorder_0004.png" />
+    <Resource Include="Images\WithOutBorder_0005.png" />
+    <Resource Include="Images\WithOutBorder_0006.png" />
+    <Resource Include="Images\WithOutBorder_0007.png" />
+    <Resource Include="Images\WithOutBorder_0008.png" />
+    <Resource Include="Images\WithOutBorder_0009.png" />
+    <Resource Include="Images\WithOutBorder_0010.png" />
+    <Resource Include="Images\WithOutBorder_0011.png" />
   </ItemGroup>
 
 </Project>
